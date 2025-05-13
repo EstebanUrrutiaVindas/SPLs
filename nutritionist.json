@@ -240,7 +240,8 @@
 										"ADD",
 										"DELETE",
 										"EDIT",
-										"HIDE"
+										"HIDE",
+										"COMPARE"
 									],
 									"floatButton": true,
 									"elements": [
