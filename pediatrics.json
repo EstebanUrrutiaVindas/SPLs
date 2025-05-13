@@ -440,7 +440,8 @@
 									"actions":[
 										"ADD",
 										"SORT",
-										"HIDE"
+										"HIDE",
+										"COMPARE"
 									],
 									"floatButton":true,
 									"elements":[
