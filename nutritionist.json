@@ -769,7 +769,6 @@
 															"label": "NOTES",
 															"resizeVertical": true
 														}
-
 													]
 												}
 											]
@@ -1011,8 +1010,8 @@
 																"minWidth": "180px",
 																"maxWidth": "190px"
 															}
-														}
-														,{
+														},
+														{
 															"type": "INFO",
 															"subType": "NUMERIC_INFO",
 															"key": "caloriesSum",
