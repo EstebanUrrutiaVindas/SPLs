@@ -1019,7 +1019,7 @@
 																"calories"
 															],
 															"dynamicSetKey":"typicalIntake",
-															"equation": "function() { return Array.from(arguments).reduce((sum, num) => sum + Number(num), 0); }",
+															"equation": "SUM",
 															"style": {
 																"minWidth": "50px",
 																"maxWidth": "150px"
