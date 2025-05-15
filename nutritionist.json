@@ -1270,11 +1270,12 @@
 																									"subType": "MULTILINE",
 																									"key": "dish",
 																									"label": "DISH",
-																									"rows" : 1,
+																									"rows" : 3,
 																									"style": {
 																										"minWidth": "110px",
 																										"maxWidth": "500px",
-																										"width": "100%"
+																										"width": "100%",
+																										"maxHeight":"80px"
 																									}
 																								},
 																								{
