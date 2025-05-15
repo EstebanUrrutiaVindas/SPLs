@@ -1273,8 +1273,7 @@
 																									"style": {
 																										"minWidth": "110px",
 																										"maxWidth": "500px",
-																										"maxHeight": "80px",
-																										"minHeight": "40px",
+																										"maxHeight": "40px",
 																										"width": "100%"
 																									}
 																								},
