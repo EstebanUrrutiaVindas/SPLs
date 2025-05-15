@@ -1268,8 +1268,7 @@
 																								},
 																								{
 																									"type": "INPUT",
-																									"subType": "TEXT",
-																									"entry": "GENERAL",
+																									"subType": "MULTILINE",
 																									"key": "dish",
 																									"label": "DISH",
 																									"style": {
