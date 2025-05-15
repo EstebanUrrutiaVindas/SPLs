@@ -1273,7 +1273,9 @@
 																									"label": "DISH",
 																									"style": {
 																										"minWidth": "110px",
-																										"maxWidth": "500px"
+																										"maxWidth": "500px",
+																										"maxHeight": "200px",
+																										"minHeight": "40px"
 																									}
 																								},
 																								{
