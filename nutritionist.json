@@ -1018,6 +1018,7 @@
 															"keys": [
 																"calories"
 															],
+															"dynamicSetKey":"typicalIntake",
 															"equation": "function() { return Array.from(arguments).reduce((sum, num) => sum + Number(num), 0); }",
 															"style": {
 																"minWidth": "50px",
@@ -1559,12 +1560,11 @@
 																			"type": "INFO",
 																			"subType": "MATH_CALC",
 																			"keys": [
-																				"nutrientGoal",
 																				"carbohydratesGoal",
 																				"proteinsGoal",
 																				"fatsGoal"
 																			],
-																			"equation": "p0 + p1 + p2 + p3",
+																			"equation": "p0 + p1 + p2",
 																			"style": {
 																				"minWidth": "50px",
 																				"maxWidth": "150px",
