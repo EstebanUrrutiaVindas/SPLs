@@ -93,7 +93,6 @@
 													"subType": "DATE",
 													"label": "FIRST_CONSULT_DATE",
 													"key": "firstConsultDate",
-													"require": true,
 													"style": {
 														"minWidth": "180px",
 														"maxWidth": "190px"
