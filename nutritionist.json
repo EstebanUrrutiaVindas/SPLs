@@ -1293,12 +1293,12 @@
 																									"subType": "MULTILINE",
 																									"key": "dish",
 																									"label": "DISH",
-																									"rows" : 3,
+																									"rows": 3,
 																									"style": {
 																										"minWidth": "110px",
 																										"maxWidth": "500px",
 																										"width": "100%",
-																										"maxHeight":"90px"
+																										"maxHeight": "90px"
 																									}
 																								},
 																								{
@@ -1666,6 +1666,16 @@
 																	}
 																}
 															]
+														},
+														{
+															"type": "INPUT",
+															"subType": "MULTILINE",
+															"key": "nutritionPlanNotes",
+															"label": "NOTES",
+															"resizeVertical": true,
+															"style": {
+																"minWidth": "180px"
+															}
 														}
 													]
 												}
