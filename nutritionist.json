@@ -1564,7 +1564,7 @@
 																				"proteinsGoal",
 																				"fatsGoal"
 																			],
-																			"equation": "((p0||0) + (p1||0) + (p2||0))",
+																			"equation": "p0 + p1 + p2",
 																			"style": {
 																				"minWidth": "50px",
 																				"maxWidth": "150px",
