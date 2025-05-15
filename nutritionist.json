@@ -513,6 +513,18 @@
 																			"subType": "TEXT",
 																			"entry": "NUMERIC",
 																			"decimal": true,
+																			"key": "bodyFatLeftLeg",
+																			"suffix": "%",
+																			"label": "LEFT_LEG",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
 																			"key": "bodyFatTrunk",
 																			"suffix": "%",
 																			"label": "TRUNK",
@@ -589,6 +601,17 @@
 																			"decimal": true,
 																			"key": "visceralFat",
 																			"label": "VISCERAL_FAT",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "metabolicAge",
+																			"label": "METABOLIC_AGE",
 																			"style": {
 																				"maxHeight": "40px"
 																			}
@@ -1275,7 +1298,7 @@
 																										"minWidth": "110px",
 																										"maxWidth": "500px",
 																										"width": "100%",
-																										"maxHeight":"80px"
+																										"maxHeight":"90px"
 																									}
 																								},
 																								{
