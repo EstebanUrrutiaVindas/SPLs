@@ -1037,7 +1037,7 @@
 														{
 															"type": "INFO",
 															"subType": "JS_SCRIPT",
-															"expresion": "Object.values($record.dieteticsHistory).flatMap(h => Object.values(h.typicalIntake)).flatMap(t => Object.values(t.dishesInputs)).reduce((a, d) => a + parseInt(d.calories || 0), 0);",
+															"expresion": "Object.values($record.dieteticsHistory).flatMap(h => Object.values(h.typicalIntake)).flatMap(t => Object.values(t.dishesInputs)).reduce((a, d) => a + isNaN(d.calories || 0) ? 0 : parseInt(d.calories || 0), 0);",
 															"label":"TOTAL_CALORIES",
 															"style": {
 																"minWidth": "50px",
