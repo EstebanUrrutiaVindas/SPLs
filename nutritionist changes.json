@@ -1014,12 +1014,9 @@
 														},
 														{
 															"type": "INFO",
-															"subType": "MATH_CALC",
-															"keys": [
-																"calories"
-															],
-															"dynamicSetKey":"typicalIntake",
-															"equation": "SUM",
+															"subType": "JS_SCRIPT",
+															"expresion": "Object.values($record.dieteticsHistory).flatMap(h => Object.values(h.typicalIntake)).flatMap(t => Object.values(t.dishesInputs)).reduce((a, d) => a + parseInt(d.calories), 0);",
+															"label":"TOTAL_CALORIES",
 															"style": {
 																"minWidth": "50px",
 																"maxWidth": "150px"
