@@ -288,6 +288,75 @@
 								}
 							},
 							{
+								"label": "OBSERVATIONS",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "LIST",
+									"key": "observationsList",
+									"renderKey": "observations",
+									"includeSeparationLine": true,
+									"floatButton": true,
+									"actions": [
+										"SORT",
+										"ADD",
+										"DELETE",
+										"EDIT",
+										"HIDE"
+									],
+									"elements": [
+										{
+											"type": "CONTAINER",
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "observationsRecord",
+											"elements": [
+												{
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
+													},
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "DATE",
+															"key": "consultDate",
+															"label": "CONSULT_DATE",
+															"preloadDate": true,
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
+															}
+														}
+													]
+												},
+												{
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
+													},
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "MULTILINE",
+															"key": "observationsNotes",
+															"label": "NOTES",
+															"resizeVertical": true,
+															"style": {
+																"minWidth": "180px"
+															}
+														}
+													]
+												}
+											]	 
+										}
+									]
+								}
+							},
+							{
 								"label": "BODY_MEASUREMENTS",
 								"spl": {
 									"type": "CONTAINER",
@@ -1050,75 +1119,6 @@
 													]
 												}
 											]
-										}
-									]
-								}
-							},
-							{
-								"label": "OBSERVATIONS",
-								"spl": {
-									"type": "CONTAINER",
-									"subType": "LIST",
-									"key": "observationsList",
-									"renderKey": "observations",
-									"includeSeparationLine": true,
-									"floatButton": true,
-									"actions": [
-										"SORT",
-										"ADD",
-										"DELETE",
-										"EDIT",
-										"HIDE"
-									],
-									"elements": [
-										{
-											"type": "CONTAINER",
-											"subType": "COLUMN",
-											"renderBackground": true,
-											"key": "observationsRecord",
-											"elements": [
-												{
-													"type": "CONTAINER",
-													"subType": "ROW",
-													"flexConfiguration": {
-														"gap": 8,
-														"display": "flex"
-													},
-													"elements": [
-														{
-															"type": "INPUT",
-															"subType": "DATE",
-															"key": "consultDate",
-															"label": "CONSULT_DATE",
-															"preloadDate": true,
-															"style": {
-																"minWidth": "180px",
-																"maxWidth": "190px"
-															}
-														}
-													]
-												},
-												{
-													"type": "CONTAINER",
-													"subType": "ROW",
-													"flexConfiguration": {
-														"gap": 8,
-														"display": "flex"
-													},
-													"elements": [
-														{
-															"type": "INPUT",
-															"subType": "MULTILINE",
-															"key": "observationsNotes",
-															"label": "NOTES",
-															"resizeVertical": true,
-															"style": {
-																"minWidth": "180px"
-															}
-														}
-													]
-												}
-											]	 
 										}
 									]
 								}
