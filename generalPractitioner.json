@@ -288,6 +288,456 @@
 								}
 							},
 							{
+								"label": "MEDICAL_HISTORY",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "COLUMN",
+									"key": "medicalHistoryContainer",
+									"renderBackground": false,
+									"elements": [
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"renderBackground": false,
+											"condition": "!currentData?.sex?.key",
+											"elements": [
+												{
+													"type": "INFO",
+													"subType": "STATIC_LABEL",
+													"text": "SEX_DATA_IS_REQUIRED_TO_DISPLAY_MORE_INFORMATION",
+													"translateRecordId": "18a63082-fbb0-4e3d-9aa0-9c59bb050e9f",
+													"fontType": "BodyBold2",
+													"icon": {
+														"fontFamily": "Material Icons",
+														"unicode": "",
+														"style": {
+															"color": "#fcba03"
+														}
+													},
+													"smallIcon": false,
+													"style": {
+														"backgroundColor": "gainsboro",
+														"borderRadius": "5px",
+														"padding": "5px",
+														"width": "100%",
+														"margin": "5px"
+													}
+												}
+											]
+										},
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"key": "medicalHistoryForm",
+											"renderBackground": false,
+											"elements": [
+												{
+													"type": "CONTAINER",
+													"subType": "COLUMN",
+													"key": "leftColumnMedicalHistoryForm",
+													"renderBackground": true,
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "cardiacDiseasesOrProcedures",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "CARDIAC_DISEASES_OR_PROCEDURES"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "rheumaticFever",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "RHEUMATIC_FEVER"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "stroke",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "STROKE"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "bloodTransfusion",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "BLOOD_TRANSFUSION"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "bruising",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "BRUISING"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "visionProblems",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "VISION_PROBLEMS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "diabetesIOrII",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "DIABETES_I_OR_II"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "radiotherapyAndOrChemotherapyTreatment",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "RADIOTHERAPY_AND/OR_CHEMOTHERAPY_TREATMENT"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "liverProblems",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "LIVER_PROBLEMS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "excessiveWeightLossOrGain",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "EXCESSIVE_WEIGHT_LOSS_OR_GAIN"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "psychiatricTreatment",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "PSYCHIATRIC_TREATMENT"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "sexuallyTransmittedDiseases",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "SEXUALLY_TRANSMITTED_DISEASES"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "migraine",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "MIGRAINE"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "drugConsumption",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "DO_YOU_CONSUME_ANY_KIND_OF_DRUG(S)"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "alcoholicDrinks",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ALCOHOLIC_DRINKS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "scarsTattoosOrMarks",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "SCARS_TATTOOS_OR_DISTINCTIVE_MARKS"
+														}
+													]
+												},
+												{
+													"type": "CONTAINER",
+													"subType": "COLUMN",
+													"key": "rightColumnMedicalHistoryForm",
+													"renderBackground": true,
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "bloodPressureProblems",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "BLOOD_PRESSURE_PROBLEMS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "hivOrAids",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "HIV+_OR_AIDS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "anemia",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ANEMIA"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "livedOrResidedOutsideCountry",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "HAVE_YOU_LIVED_OR_RESIDED_OUTSIDE_THE_COUNTRY"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "gastrointestinalProblems",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "GASTROINTESTINAL_PROBLEMS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "corticosteroidTreatments",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "CORTICOSTEROID_TREATMENTS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "epilepsySeizuresOrFainting",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "EPILEPSY_SEIZURES_OR_FAINTING"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "respiratoryDiseases",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "RESPIRATORY_DISEASES_(ASTHMA_SINUSITIS_TUBERCULOSIS_EMPHYSEMA_COPD)"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "rheumatism",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "RHEUMATISM"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "herpesVirus",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "HERPES_VIRUS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "arthritis",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ARTHRITIS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "thyroidProblems",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "THYROID_PROBLEMS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "osteoporosis",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "OSTEOPOROSIS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "bisphosphonatesTreatment",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "HAVE_YOU_TAKEN_OR_ARE_YOU_UNDER_TREATMENT_WITH_ORAL_OR_INTRAVENOUS_BISPHOSPHONATES"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "smoking",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "DO_YOU_SMOKE"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "smoked",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "DID_YOU_SMOKE"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "anaphylacticShock",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ANAPHYLACTIC_SHOCK"
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"key": "womenMedicalHistoryForm",
+											"condition": "currentData?.sex?.key",
+											"renderBackground": true,
+											"elements": [
+												{
+													"type": "CONTAINER",
+													"subType": "COLUMN",
+													"key": "womenLeftMedicalHistoryForm",
+													"renderBackground": false,
+													"elements": [
+														{
+															"type": "INFO",
+															"subType": "STATIC_LABEL",
+															"text": "WOMAN_SECTION",
+															"translateRecordId": "18a63082-fbb0-4e3d-9aa0-9c59bb050e9f",
+															"fontType": "BodyBold2",
+															"icon": {
+																"fontFamily": "Material Icons",
+																"unicode": "",
+																"style": {
+																	"color": "blue"
+																}
+															},
+															"smallIcon": false,
+															"style": {
+																"marginBottom": "10px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "contraceptiveOrHormonalTreatment",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ARE_YOU_UNDER_CONTRACEPTIVE_OR_HORMONAL_TREATMENT"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "gynecoobstetrics",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "GYNECOOBSTETRICS"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TOGGLE",
+															"key": "pregnancyStatus",
+															"defaultValue": false,
+															"checkerType": "SWITCH",
+															"label": "ARE_YOU_OR_DO_YOU_BELIEVE_YOU_ARE_PREGNANT"
+														},
+														{
+															"type": "CONTAINER",
+															"subType": "ROW",
+															"key": "womenLeftMedicalHistoryForm",
+															"renderBackground": false,
+															"elements": [
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "GENERAL",
+																	"key": "pregnancyWeeks",
+																	"label": "HOW_MANY_WEEKS_APPROXIMATELY",
+																	"style": {
+																		"minWidth": "300px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "numberOfChildBirth",
+																	"label": "NUMBER_OF_CHILDBIRTH",
+																	"style": {
+																		"minWidth": "250px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "numberOfAbortions",
+																	"label": "NUMBER_OF_ABORTIONS",
+																	"style": {
+																		"minWidth": "250px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "numberOfCSections",
+																	"label": "NUMBER_OF_C-SECTIONS",
+																	"style": {
+																		"minWidth": "250px"
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"renderBackground": true,
+											"elements": [
+												{
+													"type": "INPUT",
+													"subType": "MULTILINE",
+													"key": "observations",
+													"label": "OBSERVATIONS",
+													"resize": true
+												}
+											]
+										}
+									]
+								}
+							},
+							{
 								"label": "OBSERVATIONS",
 								"spl": {
 									"type": "CONTAINER",
@@ -351,7 +801,7 @@
 														}
 													]
 												}
-											]	 
+											]
 										}
 									]
 								}
@@ -775,7 +1225,6 @@
 									]
 								}
 							},
-							
 							{
 								"label": "BIOCHEMICAL_ANALYSIS",
 								"spl": {
