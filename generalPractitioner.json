@@ -226,52 +226,39 @@
 													"elements": [
 														{
 															"type": "INPUT",
-															"subType": "SELECT",
-															"label": "SMOKES",
-															"key": "smokes",
-															"sources": [
-																{
-																	"type": "SELECT",
-																	"options": [
-																		{
-																			"key": "yes",
-																			"value": "YES"
-																		},
-																		{
-																			"key": "no",
-																			"value": "NO"
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"type": "INPUT",
-															"subType": "SELECT",
-															"label": "DRINKS_ALCOHOL",
-															"key": "drinksAlcohol",
-															"sources": [
-																{
-																	"type": "SELECT",
-																	"options": [
-																		{
-																			"key": "yes",
-																			"value": "YES"
-																		},
-																		{
-																			"key": "no",
-																			"value": "NO"
-																		}
-																	]
-																}
-															]
+															"subType": "TEXT",
+															"entry": "GENERAL",
+															"key": "occupationCaregiver",
+															"label": "OCCUPATION"
 														},
 														{
 															"type": "INPUT",
 															"subType": "TEXT",
 															"entry": "GENERAL",
-															"label": "PHYSICAL_ACTIVITY",
-															"key": "PhysicalActivity"
+															"key": "workPlaceCaregiver",
+															"label": "WORK_PLACE"
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "GENERAL",
+															"key": "emergencyContact",
+															"label": "EMERGENCY_CONTACT",
+															"style": {
+																"minWidth": "65%",
+																"maxWidth": "65%"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "telephoneEmergencyContact",
+															"label": "TELEPHONE",
+															"style": {
+																"minWidth": "34%",
+																"maxWidth": "34%"
+															}
 														}
 													]
 												},
