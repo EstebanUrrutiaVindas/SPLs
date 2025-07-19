@@ -225,60 +225,24 @@
 													},
 													"elements": [
 														{
-															"type": "CONTAINER",
-															"subType": "ROW",
-															"shareId": "birthInformation",
-															"key": "patientInfoRow1",
-															"elements": [
-																{
-																	"type": "INPUT",
-																	"subType": "TEXT",
-																	"entry": "GENERAL",
-																	"key": "occupationCaregiver",
-																	"label": "OCCUPATION",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
-																},
-																{
-																	"type": "INPUT",
-																	"subType": "TEXT",
-																	"entry": "GENERAL",
-																	"key": "workPlaceCaregiver",
-																	"label": "WORK_PLACE",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
-																}
-															]
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "GENERAL",
+															"key": "emergencyContact",
+															"label": "EMERGENCY_CONTACT",
+															"style": {
+																"maxHeight": "40px"
+															}
 														},
 														{
-															"type": "CONTAINER",
-															"subType": "ROW",
-															"shareId": "birthInformation",
-															"key": "patientInfoRow1",
-															"elements": [
-																{
-																	"type": "INPUT",
-																	"subType": "TEXT",
-																	"entry": "GENERAL",
-																	"key": "emergencyContact",
-																	"label": "EMERGENCY_CONTACT",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
-																},
-																{
-																	"type": "INPUT",
-																	"subType": "TEXT",
-																	"entry": "NUMERIC",
-																	"key": "telephoneEmergencyContact",
-																	"label": "TELEPHONE",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
-																}
-															]
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "telephoneEmergencyContact",
+															"label": "TELEPHONE",
+															"style": {
+																"maxHeight": "40px"
+															}
 														}
 													]
 												},
