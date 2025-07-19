@@ -235,20 +235,14 @@
 																	"subType": "TEXT",
 																	"entry": "GENERAL",
 																	"key": "occupationCaregiver",
-																	"label": "OCCUPATION",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
+																	"label": "OCCUPATION"
 																},
 																{
 																	"type": "INPUT",
 																	"subType": "TEXT",
 																	"entry": "GENERAL",
 																	"key": "workPlaceCaregiver",
-																	"label": "WORK_PLACE",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
+																	"label": "WORK_PLACE"
 																}
 															]
 														},
@@ -263,19 +257,14 @@
 																	"subType": "TEXT",
 																	"entry": "GENERAL",
 																	"key": "emergencyContact",
-																	"label": "EMERGENCY_CONTACT",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
+																	"label": "EMERGENCY_CONTACT"
 																},
 																{
 																	"type": "INPUT",
 																	"subType": "TEXT",
 																	"entry": "NUMERIC",
 																	"key": "telephoneEmergencyContact",
-																	"style": {
-																		"maxHeight": "40px"
-																	}
+																	"label": "TELEPHONE"
 																}
 															]
 														}
