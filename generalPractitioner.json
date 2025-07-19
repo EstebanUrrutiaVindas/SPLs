@@ -225,40 +225,47 @@
 													},
 													"elements": [
 														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "GENERAL",
-															"key": "occupationCaregiver",
-															"label": "OCCUPATION"
+															"type": "CONTAINER",
+															"subType": "ROW",
+															"shareId": "birthInformation",
+															"key": "patientInfoRow1",
+															"elements": [
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "GENERAL",
+																	"key": "occupationCaregiver",
+																	"label": "OCCUPATION"
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "GENERAL",
+																	"key": "workPlaceCaregiver",
+																	"label": "WORK_PLACE"
+																}
+															]
 														},
 														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "GENERAL",
-															"key": "workPlaceCaregiver",
-															"label": "WORK_PLACE"
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "GENERAL",
-															"key": "emergencyContact",
-															"label": "EMERGENCY_CONTACT",
-															"style": {
-																"minWidth": "65%",
-																"maxWidth": "65%"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "telephoneEmergencyContact",
-															"label": "TELEPHONE",
-															"style": {
-																"minWidth": "34%",
-																"maxWidth": "34%"
-															}
+															"type": "CONTAINER",
+															"subType": "ROW",
+															"shareId": "birthInformation",
+															"key": "patientInfoRow1",
+															"elements": [
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "GENERAL",
+																	"key": "emergencyContact",
+																	"label": "EMERGENCY_CONTACT"
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "telephoneEmergencyContact"
+																}
+															]
 														}
 													]
 												},
