@@ -228,6 +228,26 @@
 															"type": "INPUT",
 															"subType": "TEXT",
 															"entry": "GENERAL",
+															"key": "occupationCaregiver",
+															"label": "OCCUPATION",
+															"style": {
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "GENERAL",
+															"key": "workPlaceCaregiver",
+															"label": "WORK_PLACE",
+															"style": {
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "GENERAL",
 															"key": "emergencyContact",
 															"label": "EMERGENCY_CONTACT",
 															"style": {
